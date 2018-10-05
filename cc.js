@@ -120,7 +120,7 @@ Controller.prototype = {
         var msg = (wait > 0 ? 'Waiting (' + Beautify(wait, 1) + ' s) for' : 'Choosing') + ' "' + info.obj.name + '"';
         //console.log("For {cps = " + Beautify(Game.cookiesPs, 1) + ", protect = " + Beautify(protect) + "} best candidate is", info);
 
-        //this.say(msg);
+        this.say(msg);
         if (wait > 0) {
             wait = 2;
             this.target.name  = info.obj.name;
