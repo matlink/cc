@@ -6,7 +6,7 @@ function Calculator () {
                 return Game.UpgradesInStore.filter(function(e) {
                     return ([
                         64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 84, 85, 87, 141, // bingo upgrades
-                        331, 361, // Golden Switch
+                        331, 361, 452, // Golden Switch
                         182, 183, 184, 185, 209, 333 // season switchers
                     ].indexOf(e.id) < 0);
                 });
